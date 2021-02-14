@@ -3,8 +3,12 @@ body {
 }
 
 #title {
-  background-color: #ff4c68;
+  background-color: #ffc75f;
   color: #fff;
+}
+
+.container {
+  padding-top: 5%;
 }
 
 .container-fluid {
@@ -60,8 +64,8 @@ p {
 
 /*Title Image*/
 .title-image {
-  width: 60%;
-  transform: rotate(25deg);
+  width: 80%;
+  height: 80%;
 }
 
 /*Features Section*/
@@ -86,10 +90,25 @@ p {
 
 /* testimonials Section*/
 
+span.circle {
+  background: #fdfcfc94;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  color: #353535;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 130%;
+  line-height: 150px;
+  margin-right: 5px;
+  text-align: center;
+  width: 150px;
+}
+
 #testimonials {
   padding: 7% 15%;
   text-align: center;
-  background-color: #ef8172;
+  background-color: #ffc75f;
   color: #fff;
 }
 
