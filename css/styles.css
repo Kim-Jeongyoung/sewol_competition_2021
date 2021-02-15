@@ -3,8 +3,8 @@ b {
 }
 
 #title {
-  background-color:;
-  color: ;
+  background-color: #fddb3a;
+  color: #fff;
   /* background-image: url(images/sewol32017.jpg) */
 }
 
@@ -33,7 +33,7 @@ h2 {
 
 .navbar {
   padding: 0 0 ;
-  background-color: #fff;
+background-color: #fddb3a;
 
 }
 
@@ -42,6 +42,7 @@ h2 {
   font-size: 2.5rem;
   font-weight: 400;
   padding: 0;
+  color: #fff;
 }
 
 .nav-item {
@@ -52,6 +53,7 @@ h2 {
   font-size: 1.2rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+  color: #fff;
 }
 
 /* Download Buttons */
@@ -62,7 +64,7 @@ h2 {
 /*Title Image*/
 .title-image {
   width: 80%;
-  transform: rotate(5deg);
+  /* transform: rotate(5deg); */
   position: absolute;
   right: 30%;
 }
