@@ -51,7 +51,7 @@ p {
 }
 
 /* Headings */
-.big-heading {}
+
 
 /*Navigation Bar */
 .navbar {
@@ -126,16 +126,17 @@ p {
     text-align: center;
     background-color: #ffc75f;
     color: #fff;
+
   }
 
   .testimonial-image {
-    width: 100%;
-    height: 100%;
+    width: 10%;
+    height: 10%;
     /* border-radius: 20%; */
-    margin: 20px;
+    margin:
   }
 
-  /* testimonials Section*/
+  /*Key DATES*/
   span.circle {
     background: #fdfcfc94;
     border-radius: 50%;
@@ -151,20 +152,17 @@ p {
     width: 150px;
   }
 
-  p {
-    padding:
-  }
 
   #testimonials {
     padding: 7% 15%;
     text-align: center;
     background-color: #ffc75f;
-    color: #fff;
+    /* color: #fff; */
   }
 
   .testimonial-image {
-    width: 10%;
-    border-radius: 100%;
+    width: auto;
+    border-radius:
   }
 
   .carousel-item {
@@ -192,6 +190,7 @@ p {
   #pricing {
     padding: 100px;
     text-align: center;
+    background-color: #ffc75f;
   }
 
   .price-text {
