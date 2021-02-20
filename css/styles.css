@@ -5,23 +5,8 @@ b {
 #title {
   background-color: #ffc75f;
   color: #fff;
-  /* background-image: url(images/sewol32017.jpg) */
 }
 
-/* #key-date-entries-close {
-  background: #fff;
- border-radius: 50%;
- -moz-border-radius: 50%;
- -webkit-border-radius: 50%;
- color: #353535;
- display: inline-block;
- font-weight: bold;
- font-size: 130%;
- line-height: 150px;
- margin-right: 5px;
- text-align: center;
- width: 150px;
-} */
 .container-fluid {
   padding: 3% 15% 7%;
 }
@@ -50,7 +35,6 @@ p {
   color: #8f8f8f;
 }
 
-/* Headings */
 /*Navigation Bar */
 .navbar {
   padding: 0 0 4.5rem;
@@ -81,11 +65,11 @@ p {
   height: 100x;
   /* border-radius: 50%; */
   /* overflow: hidden; */
-  margin-top: -6px;
+  margin-top: 1px;
   margin-bottom: 20%
 }
 
-/* Download Buttons */
+/*Submission Buttons */
 .download-button {
   margin: 5% 3% 5% 0;
 }
@@ -103,29 +87,8 @@ p {
   border-radius: 50% 20% / 10% 40%;
 }
 
-/*Features Section*/
-#features {
-  padding: 7% 15%;
-  background-color: #fff;
-  position: relative;
-}
-
-.feature-box {
-  text-align: center;
-  padding: 4.5%;
-}
-
-.icon {
-  color: #ffc75f;
-  margin-bottom: 1rem;
-}
-
-.icon:hover {
-  color: #353535;
-}
-
 /*Key DATES*/
-span.circle {
+.span.circle {
   background: #fdfcfc94;
   border-radius: 50%;
   -moz-border-radius: 50%;
@@ -141,41 +104,31 @@ span.circle {
 }
 
 /* Testimonial Section*/
-
 #testimonials {
   padding: 7% 15%;
   text-align: center;
   background-color: #ffc75f;
   color: #fff;
+  line-height: 2;
 }
 
 .testimonial-image {
   width: 500px;
   margin: 20px;
+  border-radius: 50% 20% / 10% 40%;
 }
 
 .carousel-item {
   padding: 7% 15%;
 }
 
-#press {
-  background-color: #ffc75f;
-  text-align: center;
-  padding-bottom: 3%;
-}
-
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
-
-/* Pricing section */
-#pricing {
+/* About section */
+#about {
   padding: 100px;
   background-color: #ffc75f;
 }
 
-.pricing-column {
+.about-column {
   padding: 3% 2%;
   text-align: center;
 }
@@ -184,30 +137,66 @@ span.circle {
   text-align: center;
 }
 
-/* CTA Section */
-/* #cta {
-  background-color: #ffc75f;
+.about {
   color: #fff;
-  padding: 7% 15%;
-  text-align: center;
 }
-
-.cta-heading {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
-  font-weight: 900;
-  Line-height: 1.5;
-} */
 
 /* Footer section */
 #footer {
-  padding: 7% 15%;
-  background-color: #ffc75f;
+  padding: 50px 0 20px;
+  background-color: #fff;
   text-align: center;
 }
 
 .social-icon {
-  margin: 20px 10px;
+  margin: 20px 20px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.contact-us {
+  margin-bottom: 30px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #f5d60a;
+  background-image: -webkit-linear-gradient(top, #f5d60a, #cbe028);
+  background-image: -moz-linear-gradient(top, #f5d60a, #cbe028);
+  background-image: -ms-linear-gradient(top, #f5d60a, #cbe028);
+  background-image: -o-linear-gradient(top, #f5d60a, #cbe028);
+  background-image: linear-gradient(to bottom, #f5d60a, #cbe028);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  text-shadow: 1px 1px 0px #fa8405;
+  -webkit-box-shadow: 5px 5px 12px #7a7773;
+  -moz-box-shadow: 5px 5px 12px #7a7773;
+  box-shadow: 5px 5px 12px #7a7773;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #f7b313 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fcec3c;
+  background-image: -webkit-linear-gradient(top, #fcec3c, #d9bd34);
+  background-image: -moz-linear-gradient(top, #fcec3c, #d9bd34);
+  background-image: -ms-linear-gradient(top, #fcec3c, #d9bd34);
+  background-image: -o-linear-gradient(top, #fcec3c, #d9bd34);
+  background-image: linear-gradient(to bottom, #fcec3c, #d9bd34);
+  text-decoration: none;
 }
 
 @media (max-width: 1028px) {
@@ -216,6 +205,15 @@ span.circle {
   }
 
   .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #testimonials {
+    text-align: center;
+  }
+
+  .testimonial-image {
     position: static;
     transform: rotate(0);
   }
