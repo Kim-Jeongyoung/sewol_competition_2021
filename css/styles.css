@@ -35,6 +35,12 @@ p {
   color: #8f8f8f;
 }
 
+
+/* letter space */
+.space { 
+  word-spacing: 100px;
+}
+
 /*Navigation Bar */
 .navbar {
   padding: 0 0 4.5rem;
