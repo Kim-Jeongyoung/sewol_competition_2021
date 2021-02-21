@@ -35,6 +35,15 @@ p {
   color: #8f8f8f;
 }
 
+.lead {
+font-size: 16.5px;
+}
+
+/* letter space */
+.space { 
+  word-spacing: 100px;
+}
+
 /*Navigation Bar */
 .navbar {
   padding: 0 0 4.5rem;
@@ -120,6 +129,16 @@ p {
 
 .carousel-item {
   padding: 7% 15%;
+}
+
+/* 유의사항 */
+.text-content {
+font-size: 5px;
+}
+
+/* jurors */
+h5 {
+line-height: 2;
 }
 
 /* About section */
