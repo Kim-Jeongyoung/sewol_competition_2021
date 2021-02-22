@@ -8,7 +8,7 @@ b {
 }
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 3% 7% 7%;
 }
 
 h1 {
@@ -29,6 +29,13 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
+  color: rgba(31,181,172,.9);
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(31,181,172,.9);
+  font-size: 1rem;
 }
 
 p {
@@ -36,8 +43,9 @@ p {
 }
 
 
+
 /* letter space */
-.space { 
+.space {
   word-spacing: 100px;
 }
 
@@ -71,47 +79,74 @@ p {
   height: 100x;
   /* border-radius: 50%; */
   /* overflow: hidden; */
-  margin-top: 1px;
+  margin-top: 4px;
   margin-bottom: 20%
 }
 
 /*Submission Buttons */
-.download-button {
-  margin: 5% 3% 5% 0;
-}
 
 .submission-button {
-  margin top: 40px
+  margin top: 40px;
 }
 
 /*Title Image*/
 .title-image {
   width: 80%;
-  /* transform: rotate(5deg); */
   position: absolute;
   right: 10%;
   border-radius: 50% 20% / 10% 40%;
+  margin-left:auto;
+  margin-right: auto;
 }
 
+/* Competition Details Section */
+/*
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position: relative;
+	top:1px; */
+
 /*Key DATES*/
-.span.circle {
-  background: #fdfcfc94;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  color: #353535;
-  display: inline-block;
+
+.keydates {
+  background-color: #FFC75F;
+  padding: 100px;
   font-weight: bold;
   font-size: 130%;
-  line-height: 150px;
+  line-height: 200px;
+  color: rgba(250, 249, 249, 0.726);
   margin-right: 5px;
-  text-align: center;
-  width: 150px;
+}
+.dot {
+  height: 200px;
+  width: 200px;
+  background-color: #FBEEAC;
+  border-radius: 50%;
+  display: inline-block;
+  color: #020202;
 }
 
 /* Testimonial Section*/
 #testimonials {
-  padding: 7% 15%;
+  padding: 7% 5%;
   text-align: center;
   background-color: #ffc75f;
   color: #fff;
@@ -119,7 +154,7 @@ p {
 }
 
 .testimonial-image {
-  width: 200px;
+  width: 700px;
   margin: 20px;
   border-radius: 50% 20% / 10% 40%;
 }
@@ -128,23 +163,17 @@ p {
   padding: 7% 15%;
 }
 
-/* About section */
-#about {
-  padding: 100px;
-  background-color: #ffc75f;
+/* 유의 사항 */
+.lead {
+font-size: 16px;
+}
+.text-content {
+font-size: 3px;
 }
 
-.about-column {
-  padding: 3% 2%;
-  text-align: center;
-}
-
-.card-header {
-  text-align: center;
-}
-
-.about {
-  color: #fff;
+/* jurors */
+h5 {
+line-height: 2;
 }
 
 /* Footer section */
@@ -173,24 +202,29 @@ p {
   margin: 40px auto 60px;
 }
 
-arrow-up {
-  position: fixed;
-  bottom: 50px;
-  right: 50px;
-  width: 70px;
-  height: 70px;
-  font-size: 50px;
-  color: #fcec3c;
-  background-color: #cbe028;
-  border-radius: 50%;
-  opacity: 0;
-  pointer-events: none;
-  transition: all var(—animation-duration) ease-in;
+/* .btn {
+	box-shadow: 0px 10px 6px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:16px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
 }
-.arrow-up.visible {
-  opacity: 1;
-  pointer-events: auto;
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
 }
+.btn:active {
+	position:relative;
+	top:1px;
+} */
 
 .btn {
   background: #f5d60a;
@@ -212,6 +246,7 @@ arrow-up {
   padding: 10px 20px 10px 20px;
   border: solid #f7b313 2px;
   text-decoration: none;
+  margin-top: 40px;
 }
 
 .btn:hover {
@@ -224,45 +259,42 @@ arrow-up {
   text-decoration: none;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1028px) {
   #title {
     text-align: center;
   }
-
+​
   .title-image {
     position: static;
     transform: rotate(0);
-    width: 200px;
   }
-
+​
   #testimonials {
-    text-align: center;
-  }
-
-  .testimonial-image {
     width: 200px;
-    margin: 20px;
-    border-radius: 50% 20% / 10% 40%;
+    text-align: center;
+
+  }
+​
+​
+  .container-fluid {
+    padding: 3% 5% 7%;
   }
 
-  .arrow-up {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    font-size: 30px;
-    right: 16px;
-    bottom: 16px;
-  }
-
-  about {
+  #about {
     padding: 20px;
     background-color: #ffc75f;
+  }
+}
+​
+@media (max-width: 680px) {
+
+  .testimonial-image {
+    position: static;
+    transform: rotate(0);
+    width: 100px;
+  }
+
 }
 
-@media (max-width: 680px) {
-.testimonial-image {
-  width: 200px;
-  margin: 20px;
-  border-radius: 50% 20% / 10% 40%;
-}
-}
+
+/* Competiton Details Section Test */
