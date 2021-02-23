@@ -11,6 +11,7 @@ b {
   padding: 3% 15% 7%;
 }
 
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
@@ -41,7 +42,7 @@ font-size: 16.5px;
 
 /* letter space */
 .space { 
-  word-spacing: 100px;
+  word-spacing: 5px;
 }
 
 /*Navigation Bar */
@@ -95,9 +96,62 @@ font-size: 16.5px;
   right: 10%;
   border-radius: 50% 20% / 10% 40%;
 }
+.keydates {
+  background-color: #ffc75f;
+  padding: 100px;
+  font-weight: bold;
+  font-size: 130%;
+  line-height: 200px;
+  color: rgba(250, 249, 249, 0.726);
+  margin-right: 5px;
+}
+
+.dot {
+  height: 200px;
+  width: 200px;
+  background-color: #fbeeac;
+  border-radius: 50%;
+  display: inline-block;
+  color: #020202;
+
+}
+
+/* .circle-haley {
+  display:inline-block;
+  width: 150px;
+  height: 150px;
+  background-color : blue;
+  border-radius: 50%;
+  text-align:center;
+  padding-top:50px; */
+
+
+/* key jy */
+
+/* .keydates-competition {
+  text-align: center ;
+}
+ .container {
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 200px;
+    background-color: #FFC75F; */
+/* }
+.container .item {
+  width: 150px;
+  height: 150px;
+  background-color :#fbeeac;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+} */ */
 
 /*Key DATES*/
-.span.circle {
+/* .span.circle {
   background: #fdfcfc94;
   border-radius: 50%;
   -moz-border-radius: 50%;
@@ -109,20 +163,24 @@ font-size: 16.5px;
   line-height: 150px;
   margin-right: 5px;
   text-align: center;
-  width: 150px;
+  width: 150px; */
 }
 
 /* Testimonial Section*/
 #testimonials {
-  padding: 7% 15%;
+  padding: 7% 5%;
   text-align: center;
   background-color: #ffc75f;
   color: #fff;
   line-height: 2;
 }
 
+.testimonial-title {
+  color: #fff;
+}
+
 .testimonial-image {
-  width: 500px;
+  width: 700px;
   margin: 20px;
   border-radius: 50% 20% / 10% 40%;
 }
